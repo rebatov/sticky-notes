@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sticky Notes</title>
+    <script>
+        let $ = require("jquery");
+    </script>
+    <!-- Insert this line above script imports  -->
+    <script>
+        if (typeof module === 'object') {
+            window.module = module;
+            module = undefined;
+        }
+    </script>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <div class="container" id="base">
+    </div>
+    <div class="container">
+        <div id="notes">
+
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

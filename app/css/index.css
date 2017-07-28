@@ -1,0 +1,18 @@
+body {
+    background-image: url('../imgs/bg.jpg');
+}
+
+#plus {
+    cursor: pointer;
+    color: #2E8B57;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+textarea {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: blue;
+    border: none;
+}

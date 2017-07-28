@@ -1,0 +1,15 @@
+{
+  "name": "sticky",
+  "version": "1.0.0",
+  "description": "sticky_notes",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@rebatov",
+  "license": "MIT",
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
+  }
+}
