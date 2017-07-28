@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Terminal=false
+Name=StickyNotes
+Icon=/usr/share/icons/sticky.svg
+Exec=/usr/local/bin/sticky
